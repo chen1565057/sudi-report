@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sudi-report-collab
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: PORT
+        value: "3000"
