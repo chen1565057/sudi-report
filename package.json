@@ -1,0 +1,15 @@
+{
+  "name": "sudi-report-collab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "苏迪服饰2026年9月市调报告 · 实时协同网页版",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "yjs": "^13.6.20",
+    "y-websocket": "^1.5.4"
+  }
+}

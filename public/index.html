@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>苏迪服饰 · 2026年9月市调报告（协同版）</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="topbar">
+    <img class="brand-logo" src="assets/brand/image7.png" alt="苏迪服饰 SUDI" />
+    <nav id="nav"></nav>
+    <div id="presence" class="presence"></div>
+    <div id="toolbar" class="toolbar">
+      <button id="btnExport" class="tb-btn" title="把整份报告导出为备份文件">导出备份</button>
+      <button id="btnImport" class="tb-btn" title="从备份文件恢复整份报告">导入备份</button>
+      <input id="fileImport" type="file" accept=".ybin,.bin,.json" style="display:none" />
+    </div>
+  </div>
+
+  <main id="app"></main>
+
+  <div id="saveState" class="save-state">连接中…</div>
+
+  <script src="data.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
